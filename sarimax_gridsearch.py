@@ -1,5 +1,7 @@
-
-import statsmodels.api as sm
+import itertools.product
+import statsmodels.api as sm (VERSION 0.8.0 OR LATER)
+import statsmodels.tsa as tsa (VERSION 0.8.0 OR LATER)
+import pandas as pd
 
 def evaluate_models(exogDF, 
                     endogDF, 
